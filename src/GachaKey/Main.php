@@ -28,13 +28,13 @@ class Main extends PluginBase implements Listener {
     public function onCommand(CommandSender $sender, Command $cmd, String $label, Array $args) : bool {
     
       if($cmd->getName() == "gachakey"){
-          $this->GachaKey($sender);
+          $this->gachakey($sender);
       }
     
       return true;
     }
   
-    public function GachaKey($player){
+    public function gachakey($player){
       $form = new SimpleForm(function(Player $player, int $data = null){
         if($data === null){
           return true;
@@ -145,7 +145,7 @@ class Main extends PluginBase implements Listener {
       });
       $mymoney = $this->getServer()->getPluginManager()->getPlugin("EconomyAPI")->myMoney($player);
       $form->setTitle($this->config->get("Title"));
-      $form->setContent($this->config->get("Content"). $player->getName() . "\n§r" . $this->config->get("Content1") . $mymoney);
+      $form->setContent($this->config->get("Content") . $player->getName() . "\n§r" . $this->config->get("Content1") . $mymoney);
       for($i = 0;$i <= 9;$i++){
           if($this->config->exists($i)){
               $form->addButton($this->config->get($i)["Button"]["Nama"] . "\n§r" . $this->config->get($i)["Button"]["Sub-Nama"]);
