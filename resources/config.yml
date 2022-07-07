@@ -1,0 +1,71 @@
+# GachaShop By ItzBluee / Bluee-13
+
+# Pake § Untuk Mengubah Warnanya
+# Membutuhkan Plugins EconomyAPI Sama Piggy Crate
+# Button Max Sampe 9 Jika Lebih Bakal Error
+# Subscribe My Youtube Channel ItzBluee02
+# Spesial Thanks To Jojoe77777 , onebone , and AllDev
+
+# Plugins Premium , Price 5k
+
+# Nama Titlenya Terserah
+Title: "§lGachaKey"
+
+# DeskripsiNya Banh
+Content: "§bHalo"
+Content1: "§aUang Kamu Sekarang:"
+
+# Main Cmd
+0:
+  GachaKey:
+    Nama: "Common" # Nama Key
+    Harga: 5000 # Harga key
+  Button:
+    Nama: "§lCommon Key" # Nama Tombol
+    Sub-Nama: "Harga : Rp.5000" # Nama Sub Tombol
+  Message:
+    Succes: "§aSukses Membeli Key" # Message Ketika Berhasil Membeli Key
+    Failed: "§cUang Kamu Kurang" # Message Jika Gagal Membeli Key
+1:
+  GachaKey:
+    Nama: "Uncommon" # Nama Key
+    Harga: 10000 # Harga key
+  Button:
+    Nama: "§lUncommon Key" # Nama Tombol
+    Sub-Nama: "Harga : Rp.10000" # Nama Sub Tombol
+  Message:
+    Succes: "§aSukses Membeli Key" # Message Ketika Berhasil Membeli Key
+    Failed: "§cUang Kamu Kurang" # Message Jika Gagal Membeli Key
+    
+2:
+  GachaKey:
+    Nama: "Vote" # Nama Key
+    Harga: 20000 # Harga key
+  Button:
+    Nama: "§lVote Key" # Nama Tombol
+    Sub-Nama: "Harga : Rp.20000" # Nama Sub Tombol
+  Message:
+    Succes: "§aSukses Membeli Key" # Message Ketika Berhasil Membeli Key
+    Failed: "§cUang Kamu Kurang" # Message Jika Gagal Membeli Key
+    
+3:
+  GachaKey:
+    Nama: "Legendary" # Nama Key
+    Harga: 100000 # Harga key
+  Button:
+    Nama: "§lLegendary Key" # Nama Tombol
+    Sub-Nama: "Harga : Rp.100000" # Nama Sub Tombol
+  Message:
+    Succes: "§aSukses Membeli Key" # Message Ketika Berhasil Membeli Key
+    Failed: "§cUang Kamu Kurang" # Message Jika Gagal Membeli Key
+   
+4:
+  GachaKey:
+    Nama: "Mythic" # Nama Key
+    Harga: 1000000 # Harga key
+  Button:
+    Nama: "§lMythic Key" # Nama Tombol
+    Sub-Nama: "Harga : Rp.1000000" # Nama Sub Tombol
+  Message:
+    Succes: "§aSukses Membeli Key" # Message Ketika Berhasil Membeli Key
+    Failed: "§cUang Kamu Kurang" # Message Jika Gagal Membeli Key
