@@ -1,6 +1,11 @@
 # GachaKey
 testing Plugins
 
+# Commands
+|**Command**|**Description**|
+|-----------|---------------|
+|`/gachakey`|`GachaKey Menu`|
+
 # Permissions
 ```
 - gachakey.cmd
