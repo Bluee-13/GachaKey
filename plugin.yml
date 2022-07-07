@@ -9,3 +9,8 @@ commands:
   gachakey:
     description: "§ePremiums User"
     permission: gachakey.cmd
+
+permissions:
+  gachakey.cmd:
+    description: "permissions"
+    default: true
